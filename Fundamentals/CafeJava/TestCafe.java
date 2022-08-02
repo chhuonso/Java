@@ -16,7 +16,7 @@ public class TestCafe {
     
         System.out.println("----- Order Total Test-----");
         double[] lineItems = {3.5, 1.5, 4.0, 4.5};
-        System.out.printf("Order total: %s \n\n",appTest.getOrderTotal(lineItems));
+        System.out.printf("Order total: %s \n\n",appTest.getOrderTotal(lineItems)); 
         
         System.out.println("----- Display Menu Test-----");
         

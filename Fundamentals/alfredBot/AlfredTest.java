@@ -14,9 +14,8 @@ public class AlfredTest {
         String testDateAnnouncement = alfredBot.dateAnnouncement("Beth Kane");
         
         String alexisTest = alfredBot.respondBeforeAlexis(
-                            "Alexis! Play some low-fi beats."
-                            );
-        String alfredTest = alfredBot.respondBeforeAlexis(
+            "Alexis! Play some low-fi beats.");
+        String alfredTest = alfredBot.respondBeforeAlfred(
             "I can't find my yo-yo. Maybe Alfred will know where it is.");
         String notRelevantTest = alfredBot.respondRandom(
             "Maybe that's what Batman is about. Not winning. But failing.."
