@@ -13,6 +13,8 @@ public class BankAccount {
         totalAccounts++;
     }
 
+
+
     // GETTERS PUBLIC
     public double getChecking(){
         return checkingBalance;
