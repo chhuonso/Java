@@ -66,8 +66,4 @@ public class BankAccount {
         this.setSavings(getSavings() - amount);
 
     }
-
-
-
-
 }
